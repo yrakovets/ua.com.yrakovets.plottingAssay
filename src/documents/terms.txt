@@ -1,0 +1,8 @@
+Terms:
+    Work - process of making Product's
+    SubWork - part of work at one Workplace equals one Stage of Technology
+    Technology - queue of stages for making one unit of Product
+    Stage - part of technology at one Workplace
+    Product - type of product from the range
+    Workplace - machine or other place where product is making
+    Task - production target to make some quantity of Product to some date

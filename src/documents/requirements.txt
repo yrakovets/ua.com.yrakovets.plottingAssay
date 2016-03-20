@@ -1,0 +1,21 @@
+Given
+    (permanent)
+    products
+    technologies with stages
+    workplaces
+
+    (temporary)
+    tasks
+
+Result
+    works with subworks
+
+Criteria
+    work ends when last of it's subwork ends
+    subwork end = subwork start + duration
+    subwork start not early than every of its previous ones end
+
+
+
+
+
