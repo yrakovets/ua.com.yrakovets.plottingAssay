@@ -1,28 +1,28 @@
 Objects
-    Product enum
+    essences.Product enum
 
-    Stage
-        List<Stage> previous
+    essences.Stage
+        List<essences.Stage> previous
         WorkingTimePeriod duration
 
-    Technology
-        Product product
-        List<Stage> stages
+    essences.Technology
+        essences.Product product
+        List<essences.Stage> stages
 
-    Task
-        Product product
+    essences.Task
+        essences.Product product
         Integer quantity
         WorkingTime endTime
 
-    Workplace enum
+    essences.Workplace enum
 
-    SubWork
-        Workplace workplace
+    essences.SubWork
+        essences.Workplace workplace
         WorkingTime start
         WorkingTimePeriod duration
         WorkingTime end
 
-    Work
-        Task task
-        List<SubWork> subworks
+    essences.Work
+        essences.Task task
+        List<essences.SubWork> subworks
         WorkingTime end

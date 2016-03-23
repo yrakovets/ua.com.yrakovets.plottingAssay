@@ -1,3 +1,5 @@
+package essences;
+
 import auxiliaryClasses.WorkingTime;
 import auxiliaryClasses.WorkingTimePeriod;
 

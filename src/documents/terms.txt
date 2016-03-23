@@ -1,8 +1,8 @@
 Terms:
-    Work - process of making Product's
-    SubWork - part of work at one Workplace equals one Stage of Technology
-    Technology - queue of stages for making one unit of Product
-    Stage - part of technology at one Workplace
-    Product - type of product from the range
-    Workplace - machine or other place where product is making
-    Task - production target to make some quantity of Product to some date
+    essences.Work - process of making essences.Product's
+    essences.SubWork - part of work at one essences.Workplace equals one essences.Stage of essences.Technology
+    essences.Technology - queue of stages for making one unit of essences.Product
+    essences.Stage - part of technology at one essences.Workplace
+    essences.Product - type of product from the range
+    essences.Workplace - machine or other place where product is making
+    essences.Task - production target to make some quantity of essences.Product to some date
