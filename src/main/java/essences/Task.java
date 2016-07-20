@@ -15,4 +15,16 @@ public class Task {
     Product product;
     Integer quantity;
     WorkingTime endTime;
+
+    public Integer getQuantity(){
+        return quantity;
+    }
+
+    public WorkingTime getEndTime(){
+        return endTime;
+    }
+
+    public Product getProduct(){
+        return product;
+    }
 }

@@ -2,6 +2,7 @@ package essences;
 
 import auxiliaryClasses.WorkingTimePeriod;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,6 +12,7 @@ public class Stage {
     public Stage(Workplace workplace, WorkingTimePeriod duration){
         this.workplace = workplace;
         this.duration = duration;
+        this.previous = new ArrayList<Stage>();
     }
 
     public Stage(Workplace workplace, WorkingTimePeriod duration, List<Stage> previous){

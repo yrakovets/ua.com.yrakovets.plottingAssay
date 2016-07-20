@@ -16,4 +16,8 @@ public class Technology {
     public void setStages(List<Stage> stages){
         this.stages =stages;
     }
+
+    public List<Stage> getStages(){
+        return stages;
+    }
 }
